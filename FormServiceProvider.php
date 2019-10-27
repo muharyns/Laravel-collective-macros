@@ -28,7 +28,7 @@ class FormServiceProvider extends ServiceProvider
         {
             $class='';
             if ($errors->has($fieldName)) {
-          //      $class='is-invalid';
+                $class='is-invalid';
             }
             echo $fieldName;
             
